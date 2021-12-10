@@ -1,0 +1,55 @@
+#logo{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+.thumb{
+    width: 267px;
+    height: 329px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 12px 0px;
+}
+.border{
+    box-shadow: 0px 0px 5px black;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.mask{
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 9vh;
+    background-color: #f4f4f4;
+}
+.sidebar{
+    height: 90vh;
+    max-height: 90vh;
+    overflow: auto;
+}
+#container{
+    overflow: auto;
+    height: 90vh;
+    max-height: 90vh;
+}
+#logo-view{
+    width: 70%;
+    height: 75%
+}
+.heading{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.sub-heading{
+    font-size: 15px;
+    margin-left: 10px;
+}
