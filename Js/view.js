@@ -1,7 +1,7 @@
 let book = window.location.href;
 let book_str = new URL(book);
 
-const url = "../Docs/"+ book_str.searchParams.get("url")+".pdf";
+const url = "./Docs/"+ book_str.searchParams.get("url")+".pdf";
 
 pdfjsLib.getDocument(url).promise.then(pdf => {
     var container = document.getElementById("container");
